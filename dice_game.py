@@ -42,7 +42,7 @@ def main():
                                     choice = input("\nwanna continue?(y/n) \n"
                                     "or choose number of dice(c) \n").lower()
                                     if choice == "n":
-                                        return "thanks for playing"
+                                        return print("thanks for playing")
                                     elif choice == "c":
                                         print("going back\n")
                                         break                               
