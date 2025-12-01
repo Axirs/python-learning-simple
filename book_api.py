@@ -4,7 +4,7 @@ import json
 based_url = "https://openlibrary.org/search.json"
 
 def book():
-    my_param = {"q": "Harry Potter", "limit": 1}
+    my_param = {"title": "Harry Potter", "page": 1}
 
     response = requests.get(based_url, params=my_param)
 
